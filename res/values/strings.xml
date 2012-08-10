@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SimpleServiceActivity!</string>
+    <string name="app_name">SimpleService</string>
+    <dimen name="row_size">80dip</dimen>
+    <string name="new_item">new item</string>
+    <color name="grey">#333333</color>
+    <dimen name="icon_size">32dip</dimen>
+    <string name="delete">Delete</string>
+    <string name="dialog_title">Create new</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_no">Cancel</string>
+    <string name="m_d_new_name">Name</string>
+    <string name="m_d_minutes">Minutes count</string>
+    <string name="m_d_seconds">Seconds count</string>
+    <string name="s_ticker_time">TIME!!!!</string>
+    <string name="s_ticker_start">STARTED</string>
+    <string name="m_stop_btn_text">stop</string>
+    
+
+</resources>

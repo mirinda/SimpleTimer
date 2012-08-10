@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/m_new_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/new_item"
+        android:layout_weight="16" 
+        android:background="@color/grey"
+        android:gravity="center"/>
+    <RelativeLayout 
+        android:id="@+id/m_rel_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/m_time_text"
+            android:text="+100500"
+            android:gravity="center" 
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:textSize="45pt"
+                 />
+        <Button android:id="@+id/m_stop_btn"
+            android:text="@string/m_stop_btn_text"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dip"
+        	android:layout_height="50dip"
+        	android:layout_below="@id/m_time_text"
+        	android:textSize="30pt"
+            />
+        
+    </RelativeLayout>
+    <ListView 
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="5"
+        android:visibility="visible"
+        />
+        
+    
+
+    
+
+</LinearLayout>
